@@ -104,6 +104,9 @@ body {
 }
 .contacts-icon {
   fill: currentColor;
+  transition-property: color;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .header-link {
   color: var(--first-title-color);
@@ -111,6 +114,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus,
@@ -124,6 +130,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .header-contacts:hover,
 .header-contacts:focus {
@@ -276,6 +285,9 @@ body {
 }
 .social-net {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .social-net:hover,
 .social-net:focus {
@@ -288,6 +300,9 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .social-net-link:hover,
 .social-net-link:focus {
@@ -312,12 +327,18 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
+  transition-property: border;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .clients-list > .item:not(:last-child) {
   margin-right: 30px;
 }
 .clients-icon {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .clients-list > .item:hover,
 .clients-list > .item:focus {
@@ -386,6 +407,9 @@ body {
   max-height: 44px;
   display: block;
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .footer-social-net-list > .item > .link:hover,
 .footer-social-net-list > .item > .link:focus {
@@ -407,6 +431,9 @@ body {
   border-radius: 4px;
   border: none;
   padding: 6px 22px;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .projects-btn:hover,
 .projects-btn:focus {
@@ -433,6 +460,9 @@ body {
 }
 .projects-list .item {
   border: 1px solid #eeeeee;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  animation-timing-function: (0.4, 0, 0.2, 1);
 }
 .projects-list .item:hover,
 .projects-list .item:focus {
